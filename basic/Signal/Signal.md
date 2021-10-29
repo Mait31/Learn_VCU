@@ -81,9 +81,9 @@ ADC采样电路采集传感器信号，通过AD转换电路将模拟信号转化
 
 基于模型的设计方法采用图形化设计和自动化代码生成，不同于基于手工编程和纸上规范的传统编程方法。基于模型的设计方法的不同阶段，分别采用MIL/SIL/PIL/HIL等测试方法，有效的对嵌入式代码进行测试和验证。其中：
 
-MIL，Model in the Loop：模型在环测试；被测对象：算法模型
+MIL，Model in the Loop：模型在环测试；
 
-SIL，Software in the Loop：软件在环测试；被测对象：自动生成的代码
+SIL，Software in the Loop：软件在环测试；SIL的目的是为了验证生成的代码和模型在功能上是否一致，或者说验证生成的代码和模型在功能上是否等效。
 
 PIL，Processor in the Loop：处理器在环测试；被测对象：编译后的代码
 
