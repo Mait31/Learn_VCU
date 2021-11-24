@@ -139,6 +139,8 @@ HIL，Hardware in the Loop：硬件在环测试。被测对象：控制器
 
 ## 实践问题
 
+开发文档中一般只有功能需求，对于变量的命名要求不是太多，需要根据自己的理解进行。
+
 **加速踏板位置信号**
 
 Saturation Dynamic：限幅模块，输出值可以是输入信号u，也可以是结界值up/lo
@@ -153,6 +155,14 @@ Saturation Dynamic：限幅模块，输出值可以是输入信号u，也可以�
 
 1. 先搭建模型，设置了Input和Outpot,模型搭建完成后封装，封装后子系统外部也有一个Input和Outpot，这个可以修改为要输入的信号
 2. 先创建subsystem，模型搭建完毕外部有相应的输入和输出接口，连接对应的信号模块或信号即可
+
+**测量点：**
+
+什么是测量点：可以在测试过程中看以看到的信号值，对一些关键的信息一定要添加测量点
+
+自己电脑无法在matlab中添加测量点，需要依赖motohawk中的probe标签添加测量点
+
+在测试中想把标定量进行修改也需要添加motohawk的一维查表模块，例如<img src="C:\Users\123\AppData\Roaming\Typora\typora-user-images\image-20211114165947578.png" alt="image-20211114165947578" style="zoom:67%;" />
 
 **标定与观测**
 

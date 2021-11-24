@@ -1,4 +1,4 @@
-# Matlab/Simulink
+## Matlab/Simulink
 
 ##### 基础知识
 
@@ -9,9 +9,9 @@
 - Stateflow和Simulink都可以搭建实现某功能的模型，看哪个使用更方便就使用
 - 步长不能过长，会影响精度，也不能过短
 - 创建了一个subsystem，里面里面设置了输入信号，输出信号，子系统上会出现对应的接口
-- simulin快捷键![image-20211022170853337](C:\Users\123\Program\VCU\basic\image-20211022170853337.png)
+- simulin快捷键![](C:\Users\123\Program\VCU\basic\image\image-20211022170853337.png)
 
-
+- matlab不能同时打开名字相同的两个模型，无论模型是否在同一路径下。
 
 ## Simulink建模基础
 
