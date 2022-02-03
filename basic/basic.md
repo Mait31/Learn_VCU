@@ -6,6 +6,10 @@
 
 #### 可选择的岗位
 
+汽车网络安全公司  赛博汽车
+
+我国的科恩实验室入侵特斯拉的一个团队
+
 ![image-20211109151716906](C:\Users\123\Program\VCU\basic\image\image-20211109151716906.png)
 
 #### D2P开发平台
@@ -14,7 +18,7 @@
 
 #### 控制器针脚
 
-![image-20211109152859948](C:\Users\123\Program\VCU\basic\image\image-20211109152859948.png)
+<img src="C:\Users\123\Program\VCU\basic\image\image-20211109152859948.png" alt="image-20211109152859948"  />
 
 #### 底层软件模块
 

@@ -31,6 +31,8 @@
 7. 实车测试
    1. 整车标定
    2. 原型样车
+   
+   <img src="C:\Users\123\AppData\Roaming\Typora\typora-user-images\image-20211113104216805.png" alt="image-20211113104216805" style="zoom: 33%;" />
 
 ## 知识点巩固 - 问答
 
